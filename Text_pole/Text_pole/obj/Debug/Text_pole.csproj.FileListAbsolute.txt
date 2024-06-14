@@ -1,0 +1,10 @@
+C:\Users\User-8\Desktop\Text_pole\Text_pole\bin\Debug\Text_pole.exe
+C:\Users\User-8\Desktop\Text_pole\Text_pole\bin\Debug\Text_pole.pdb
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.csproj.AssemblyReference.cache
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.Form1.resources
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.Form2.resources
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.Properties.Resources.resources
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.csproj.GenerateResource.cache
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.csproj.CoreCompileInputs.cache
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.exe
+C:\Users\User-8\Desktop\Text_pole\Text_pole\obj\Debug\Text_pole.pdb
