@@ -1,0 +1,75 @@
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="1"
+                  x:Name="Spisok"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+            <DataGridTextColumn Header="Id"
+                                Width="*"
+                                Binding="{Binding ID}"/>
+            <DataGridTextColumn Header="Marka"
+                                Width="*"
+                                Binding="{Binding Marka}"/>
+            <DataGridTextColumn Header="Model"
+                                Width="*"
+                                Binding="{Binding Model}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    <StackPanel Grid.Row="2">
+        <Button Height="30"
+            Width="100"
+            Click="Delet"
+            Content="Удалить"/>
+        <Button Height="30"
+Width="100"
+Click="Add"
+Content="Добавить"/>
+    </StackPanel>
+</StackPanel>
+    </Grid>
+
+
+
+
+
+
+
+
+
+
+
+    <Grid Background="White">
+        <StackPanel Width="200"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+
+            <TextBlock Text="Marka"/>
+            <TextBox x:Name="MarkaTxb"/>
+
+            <TextBlock Text="Model"/>
+            <TextBox x:Name="ModelTxb"/>
+
+            <TextBlock Text="Tipppp"/>
+            <TextBox x:Name="TippppTxb"/>
+
+            <TextBlock Text="ProVoooD"/>
+            <TextBox x:Name="ProVoooDTxb"/>
+
+            <TextBlock Text="ViberiteCvet"/>
+            <ComboBox x:Name="ColorCBOx"
+                      DisplayMemberPath="Coloristo"/>
+
+            <TextBlock Text="ViberiteDatyu"/>
+            <DatePicker x:Name="DPicker"/>
+            <Button Content="Save"
+                    Click="SaveBtn"/>
+        </StackPanel>
+            
+
+    </Grid>
+</Page>
