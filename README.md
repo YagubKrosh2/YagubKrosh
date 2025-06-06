@@ -1,5 +1,7 @@
 # YagubKrosh
 
+0. $ git clone https://github.com/YagubKrosh2/YagubKrosh.git
+
 1. touch README.md
 2. git init
 3. git add README.md
